@@ -6,7 +6,7 @@
 ![sss](https://user-images.githubusercontent.com/28098904/170249835-b28614e5-211e-4644-a013-682d5168ab81.PNG)
 
 - The number of spots detrmined based on elbow method 
-![classes](https://user-images.githubusercontent.com/28098904/170289425-ee7a87fe-53de-4205-ab7e-396686f71c95.PNG)
+- ![classes](https://user-images.githubusercontent.com/28098904/170289425-ee7a87fe-53de-4205-ab7e-396686f71c95.PNG)
 - you can check more about the creation of the model and preprocess of data from **ML_model_Recommender_last.ipynb** file 
 **Ros-Nodes Side**
 -By downloading the model and loading it on Ros-node, by getting the data that what we need from weather API and pass it to the model to predict parking spots so, and based on  prediction the Actionlib that access the Movebase package and passes the coordinates, and there are different coordinates for each spot that predicted
