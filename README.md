@@ -1,4 +1,3 @@
-**Parking-recommendation-system-Autonmous-Vehicle
 ## OverView :
 - Movapkg is a package that can set the goal with respect to a map for a vehicle for the best parking should stop based on some features, the setting the goal is based on a prediction come from Machine Learning Model that has an ability to cluster the data to  3 parking spots with respect to the data which is trained on. 
 - The idea of determining the parking of the vehicle or the pose that should be in it, it will save time and power; then for, make the response of arriving the vehicle better on next request, in another words "prediction the parking that near of next request will provide time for vehicle response "
