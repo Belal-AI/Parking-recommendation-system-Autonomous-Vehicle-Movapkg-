@@ -10,8 +10,8 @@
 **Ros-Nodes Side**
 -By downloading the model and loading it on Ros-node, by getting the data that what we need from API and pass it to the model to predict parking spots so, and based on  prediction the Actionlib that access the Movebase package and passes the coordinates, and there are different coordinates for each spot that predicted
 ## How to run it
-1- after cloning the package on [working-space](http://wiki.ros.org/catkin/Tutorials/create_a_workspace),run gazebo with your World or empty
-2- run the navigation package that has move_base pkg like rtabmap  or amcl with rtabmap
-3-run the node that load the model and produce the prediction to the map topic 
+- 1- after cloning the package on [working-space](http://wiki.ros.org/catkin/Tutorials/create_a_workspace),run gazebo with your World or empty
+- 2- run the navigation package that has move_base pkg like rtabmap  or amcl with rtabmap
+- 3- run the node that load the model and produce the prediction to the map topic 
 **HINT**in case you ran the file with an empty world just load your map.yaml by rosrun map_server map_server [filename.yaml]
 ![Screencast-from-05-25-2022-03_39_56-PM](https://user-images.githubusercontent.com/28098904/170280075-0171219c-5269-4c5a-a54a-3bf21029e1d3.gif)
