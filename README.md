@@ -8,7 +8,7 @@
 
 - you can check more about the creation of the model and preprocess of data from **ML_model_Recommender_last.ipynb** file 
 **Ros-Nodes Side**
--By downloading the model and loading it on Ros-node, by getting the data that what we need from API and pass it to the model to predict parking spots so, and based on  prediction the Actionlib that access the Movebase package and passes the coordinates, and there are different coordinates for each spot that predicted
+-By downloading the model and loading it on Ros-node, by getting the data that what we need from weather API and pass it to the model to predict parking spots so, and based on  prediction the Actionlib that access the Movebase package and passes the coordinates, and there are different coordinates for each spot that predicted
 ## How to run it
 - 1- after cloning the package on [working-space](http://wiki.ros.org/catkin/Tutorials/create_a_workspace),run gazebo with your World or empty
 - 2- run the navigation package that has move_base pkg like rtabmap  or amcl with rtabmap
